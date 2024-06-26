@@ -256,7 +256,7 @@ ion-icon {
 
 
 
-.carousel-1 {
+.carousel {
     position: relative;
     width: 100%;
     height: calc(100vh - 170px);
@@ -266,20 +266,20 @@ ion-icon {
     overflow: hidden;
 }
 
-.carousel-1 .carousel-1-inner,
-.carousel-1 .carousel-1-item {
+.carousel .carousel-inner,
+.carousel .carousel-item {
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-.carousel-1 .carousel-1-item img {
+.carousel .carousel-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.carousel-1 .carousel-1-item::after {
+.carousel .carousel-item::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -290,7 +290,7 @@ ion-icon {
     z-index: 1;
 }
 
-.carousel-1 .carousel-1-caption {
+.carousel .carousel-caption {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -302,21 +302,21 @@ ion-icon {
     min-height: 400px;
 }
 
-.carousel-1 .carousel-1-caption p {
+.carousel .carousel-caption p {
     color: #ffffff;
     font-size: 30px;
     margin-bottom: 15px;
     letter-spacing: 1px;
 }
 
-.carousel-1 .carousel-1-caption h1 {
+.carousel .carousel-caption h1 {
     color: #ffffff;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 35px;
 }
 
-.carousel-1 .carousel-1-caption .btn {
+.carousel .carousel-caption .btn {
     padding: 15px 35px;
     font-size: 18px;
     font-weight: 500;
@@ -329,23 +329,23 @@ ion-icon {
     transition: .3s;
 }
 
-.carousel-1 .carousel-1-caption .btn:hover {
+.carousel .carousel-caption .btn:hover {
     color: #030f27;
     background: #fdbe33;
     border-color: #fdbe33;
 }
 
 @media (max-width: 767.98px) {
-    .carousel-1 .carousel-1-caption h1 {
+    .carousel .carousel-caption h1 {
         font-size: 40px;
         font-weight: 700;
     }
     
-    .carousel-1 .carousel-1-caption p {
+    .carousel .carousel-caption p {
         font-size: 20px;
     }
     
-    .carousel-1 .carousel-1-caption .btn {
+    .carousel .carousel-caption .btn {
         padding: 12px 30px;
         font-size: 18px;
         font-weight: 500;
@@ -354,16 +354,16 @@ ion-icon {
 }
 
 @media (max-width: 575.98px) {
-    .carousel-1 .carousel-1-caption h1 {
+    .carousel .carousel-caption h1 {
         font-size: 30px;
         font-weight: 500;
     }
     
-    .carousel-1 .carousel-1-caption p {
+    .carousel .carousel-caption p {
         font-size: 16px;
     }
     
-    .carousel-1 .carousel-1-caption .btn {
+    .carousel .carousel-caption .btn {
         padding: 10px 25px;
         font-size: 16px;
         font-weight: 400;
@@ -371,7 +371,7 @@ ion-icon {
     }
 }
 
-.carousel-1 .animated {
+.carousel .animated {
     -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
 }
